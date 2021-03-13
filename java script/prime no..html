@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<title>Java Script Prime No.</title>
+
+	
+</head>
+<body>
+	
+</body>
+<script>
+
+prime();
+function prime()
+{
+	var fact,j;
+	for(var i=1; i<=50; i++)
+	{
+		fact=0;
+		for(var j=1; j<=50; j++)
+		{
+			if(i%j==0)
+			fact++;
+		}
+		if(fact==2)
+		document.write(i,"<br>");
+		console.log(i);
+	}
+}
+
+	</script>
+</html>

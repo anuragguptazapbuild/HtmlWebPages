@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> AnuragGupta</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+				<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+				<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+		<link rel="stylesheet" type="text/css"  href="css/s123.css">
+		<link href="css/infinite-slider.css" rel="stylesheet">
+		<script src="js/carousel.js"></script>
+       
+		
+		<script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:-1,d:1,o:-0.7}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 500,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 3000;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+</head>
+
+<body>
+   <div class="container">
+		<div class="col-lg-1">
+		
+				</div>
+				<div class="col-lg-2">
+				<img src="img/logo-header.png">
+				</div>
+				<div class="col-lg-8 ">
+					<ul type="none" class="nav navbar-nav navbar-right head">
+							<li><a href="#">FEATURES</a></li>
+							<li><a href="#">PRICING</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li><a href="#">CONTACT SALES</a></li>
+							<li><a href="#"> <i class="fa fa-user-o" aria-hidden="true"></i>  LOGIN</a></li>
+							<li><a href="#">DEMO</a></li>
+						</ul>
+				 </div>
+				 <div class="col-lg-1">
+		
+				</div>
+	</div>
+	
+	
+	
+	<style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 032 css*/
+        .jssorb032 {position:absolute;}
+        .jssorb032 .i {position:absolute;cursor:pointer;}
+        .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+        .jssorb032 .i:hover .b {fill:#fff;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .iav .b {fill:#fff;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .i.idn {}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {;pointer-events:none;}
+    </style>
+   <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+			<div data-p="225.00">
+                <img data-u="image" src="img/banner.jpg" />
+               
+                <div style="position:absolute;top: 80px;right: 380px;width:480px;height:130px;font-family:'Roboto  					   		Condensed',sans-serif;font-size:30px;color:white;line-height:1.27;padding:5px 5px 5px 5px;box-sizing:border-box;text-align:center">
+				 <h2 style="font-weight:700;font-size: 30px"> RENTING MADE EASY</h2>
+					<p style="font-size:19px;margin: 30px 0px;line-height: 25px;;">Automate your property management with a platform built by both tenants and landlords</p>
+					<form action="/action_page.php">
+                      <div class="form-group">
+                          <label for="email"></label>
+						  <input type="email" class=" mail" id="email" placeholder=" First Name" name="email">
+						  <input type="email" class=" mail" id="email" placeholder=" Last Name" name="email"><br>
+						  
+                          <input type="email" class=" mail" id="email" placeholder=" Email Address" name="email" style=    "margin-left: 10px; width: 64%"><br>
+                              
+                              <button type="submit" class="button1">TRY DWEL</button>
+                              </form>
+				</div>
+				</div>
+            </div> 
+			<div data-p="225.00">
+                <img data-u="image" src="img/banner.jpg" />
+               
+                <div style="position:absolute;top: 80px;right: 380px;width:480px;height:130px;font-family:'Roboto  					   		Condensed',sans-serif;font-size:30px;color:white;line-height:1.27;padding:5px 5px 5px 5px;box-sizing:border-box;text-align:center">
+				<h2 style="font-weight:700;font-size: 30px"> RENTING MADE EASY</h2>
+					<p style="font-size:19px;margin: 30px 0px;line-height: 25px;">Automate your property management with a platform built by both tenants and landlords</p>
+					<form action="/action_page.php">
+                      <div class="form-group">
+                          <label for="email"></label>
+						  <input type="email" class=" mail" id="email" placeholder=" First Name" name="email">
+						  <input type="email" class=" mail" id="email" placeholder=" Last Name" name="email"><br>
+						  
+                          <input type="email" class=" mail" id="email" placeholder=" Email Address" name="email" style=    "margin-left: 10px; width: 64%"><br>
+                              
+                              <button type="submit" class="button1">TRY DWEL</button>
+                              </form>
+				</div>
+            </div>
+            <div data-p="225.00">
+                <img data-u="image" src="img/banner.jpg" />
+               
+                <div style="position:absolute;top: 80px;right: 380px;width:480px;height:130px;font-family:'Roboto  					   		Condensed',sans-serif;font-size:30px;color:white;line-height:1.27;padding:5px 5px 5px 5px;box-sizing:border-box;text-align:center">
+				 <h2 style="font-weight:700;font-size: 30px"> RENTING MADE EASY</h2>
+					<p style="font-size:19px;margin: 30px 0px;line-height: 25px;">Automate your property management with a platform built by both tenants and landlords</p>
+					<form action="/action_page.php">
+                      <div class="form-group">
+                          <label for="email"></label>
+						  <input type="email" class=" mail" id="email" placeholder=" First Name" name="email">
+						  <input type="email" class=" mail" id="email" placeholder=" Last Name" name="email"><br>
+						  
+                          <input type="email" class=" mail" id="email" placeholder=" Email Address" name="email" style=    "margin-left: 10px; width:64%"><br>
+                              
+                              <button type="submit" class="button1">TRY DWEL</button>
+                              </form>
+				</div>
+            </div>
+			 
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        
+    </div>
+	</div>
+	</div>
+	
+	<div class="head2">
+	<div class="col-lg-1"></div>
+	<div class="col-lg-4"><h2 class="welcome">WELCOME TO THIS COMMUNITY</h2></div>
+	<div class="col-lg-6"><p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipLorem ipsum dolor sit amet, consectetur</p></div>
+	</div>
+	
+	<div class="section1">
+	<div class="col-lg-12 text-center">
+	<h2 class="feature">THE FEATURES</h2>
+	<p class="text2">Simplifying everything about renting.<br> Dwel is the leading way to manage properties online.</p>	
+	</div>
+	</div>
+	<div class="col-lg-2"></div>
+	<div class="col-lg-2 text-center">
+	<img src="img/quick-secure-icon.png">
+	<h2 class="title"><a href="#">QUICK AND SECURE PAYMENT COLLECTION</a></H2>
+	</div>
+	<div class="col-lg-2 text-center">
+	<img src="img/track-all-maintanence-icon.png">
+	<h2 class="title"><a href="#">TRACK ALL MAINTAINENCE REPAIRS</a></H2>
+	</div>
+	<div class="col-lg-2 text-center">
+	<img src="img/view-property-performance-icon.png">
+	<h2 class="title"><a href="#">VIEW PROPERTY PERFORMANCE</a></H2>
+	</div>
+	<div class="col-lg-2 text-center">
+	<img src="img/tanent-reviews.png">
+	<h2 class="title"><a href="#">TENANT <Br>REVIEWS</a></H2>
+	</div>
+	<div class="col-lg-2"></div>
+	<div class="col-lg-12 text-center">
+	<button class="seemore">SEE MORE</button>
+	</div>
+	<div class="footer1">
+	<div class=" p">
+	<img src="img/trusted-by-BG.jpg" class="img-responsive">
+	<h2 class="feature align text-center"> TRUSTED BY </h2>
+	<div class="col-lg-2 align2"></div>
+	<div class="col-lg-4 align2 "><h2 class="feature weight">175,000+<br><P class="abc">OWNERS</P></div>
+	<div class="col-lg-4 align3"><h2 class="feature weight">1,000,000+<br><P class="abc">RESIDENTS</P></div>
+	<div class="col-lg-2 align2"></div>
+
+	
+	</div>
+	</div>
+	
+	<div class="head2 footer2">
+	<div class="col-lg-1"></div>
+	<div class="col-lg-3"><h2 class="welcome lh">SIGN UP NOW</h2></div>
+	<div class="col-lg-8"><div class="form-group form2">
+                          <label for="email"></label>
+						  <input type="email" class=" mail" id="email" placeholder=" First Name" name="email">
+						  <input type="email" class=" mail" id="email" placeholder=" Last Name" name="email">
+						  
+                          <input type="email" class=" mail" id="email" placeholder=" Email Address" name="email"><br>
+                              
+                              <button type="submit" class="button4">TRY DWEL</button>
+                              </form>
+				</div></div>
+	</div>
+	
+	<div class="footimg">
+		<img src="img/citi-sillihoutes-bg.png" class="img-responsive">
+	</div>
+	
+	
+	<div class="footfinal">
+	<div class="col-lg-3">
+	<img src="img/login-logo.png">
+	</div>
+	
+	<div class="col-lg-3 child">
+	<ul type="none">
+	<li><a href="#">ABOUT</a><li>
+	<li><a href="#">Our Story</a><li>
+	<li><a href="#">Privacy Policy</a><li>
+	<li><a href="#">Security Policy</a><li>
+	<li><a href="#">Contact Us</a><li></ul>
+	</div>
+	<div class="col-lg-3 child">
+	<ul type="none">
+	<li><a href="#">CONTACT SALES</a><li>
+	<li><a href="#">123.456.789</a><li>
+	<li><a href="#">Mon-Fri:9am to 6pm</a><li>
+	<li><a href="#">FAQ'S</a><li>
+	<li><a href="#">Contact Customer Care</a><li></ul>
+	</div>
+	<div class="col-lg-3 child">
+	<ul type="none">
+	<li><a href="#">JOIN OUR MAILING LIST</a><li>
+	<h5>Stay up to date on future releases,news and improvements.</h5>
+	<li><input type="email" class=" mail sub" id="email" placeholder="Your Email " name="email">
+	<input type="email" class=" mail arrow" id="email" placeholder="" name="email"></li>
+	
+	
+	</ul>
+	</div>
+	<div class="col-lg-12 text-center cr">
+	© DWEL 2017,All rights reserved.
+	</div>
+	</div>
+	
+
+	
+
+	
+
+	
+	
+	
+		
+	
+		
+    <script type="text/javascript">jssor_1_slider_init();</script>
+</body>
+</html>

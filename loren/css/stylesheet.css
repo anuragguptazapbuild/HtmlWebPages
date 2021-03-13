@@ -1,0 +1,20 @@
+
+body .container{
+    
+    background-color: deeppink;
+    margin-left:0%;
+}
+
+nav{
+margin-bottom:0px;
+
+   }
+       
+@media only screen and (max-width:768px)
+{
+    .abc{ 
+        display:inline-block;
+        width:100%;
+        }
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <title>A Basic Map for Accident and Detect System</title>
+ <link rel="stylesheet" type="text/css"  href="css/c1.css">
+<script src="js/j1.js"></script>
+
+
+
+</head>
+
+<body>
+	<div id="floating-panel">
+  <input onclick="clearMarkers();" type=button value="Hide Markers">
+  <input onclick="showMarkers();" type=button value="Show All Markers">
+  <input onclick="deleteMarkers();" type=button value="Delete Markers">
+</div>
+<div id="map"></div>
+<div>
+<form id="form" action="#" method="get">
+	
+  
+  Enter Longitude :<input type="text" id="userInput"/>
+  Enter Latitude  :  <input type="text" id="userInput1"/>
+    <input type="submit" onclick="initMap();" />
+</form>
+</div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZq3pJNmHXW5131t5ICzXa8QQ1XIt1-lM&callback=initMap">
+</script>
+</body>
+</html>

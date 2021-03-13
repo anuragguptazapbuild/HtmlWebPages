@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+             var counter=1;var i=0;
+            function more(){
+               
+                var a=document.getElementById('add');
+                a.innerHTML+="<br>Input Column:"+count+"<br>";
+                b=document.createElement("input");
+                b.setAttribute("type","text");
+                b.setAttribute("name","text");
+                
+                a.appendChild(b);
+                a.innerHTML+="<br>";
+                count++;
+                
+                
+                
+            }
+            
+            
+        function results(){
+            var name= document.getElementById('name').value;
+            var last= document.getElementById('last').value;
+            document.write(name + "<br/>");
+                              document.write(last +"<br/>");
+                                             
+                           
+        }
+        
+        
+        </script>
+    </head>
+    <body>
+        <form id="add" onsubmit="return results()"; method="post"; action="form.html";>
+            first name:
+            <input type="text" id="name" name="firstname" placeholder="first name"><br>
+                last name:<input id="last" type="text" name="lastname"placeholder="last name" ><br>
+                    roll no.  :<input id="roll" type="text" name="rollno" placeholder="roll no"><br>
+                    <input type="submit" value="send">
+                    <button type="button" onclick="more()" class="abc">add more</button>
+                        </form>
+    </body>
+</html>
